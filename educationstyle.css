@@ -1,0 +1,114 @@
+body {
+font-family: 'Open Sans', arial, sans-serif;
+font-size: 1em;
+color:#444;
+margin-top: 2px;
+margin-bottom: 10px;
+background-color: #FFFAF0;
+}
+
+#container {
+width:100%;
+max-width: 900px;
+margin: 0 auto;
+border-bottom:50px;
+}
+
+
+/* name */
+#name {
+font-size: 4em;
+color:#33485e;
+text-transform: uppercase;
+text-align:center;
+border-bottom: 1px solid: #33485e;
+width:60%;
+min-width:300px;
+margin: 10;
+}
+
+
+
+/* section titles */
+.sectionheader {
+font-size: 2em;
+background-color: #FFE4C4;
+color: #8B4513;
+margin-bottom: 10px;
+margin-top: 20px;
+margin: 0px;
+width: 70%;
+min-width: 300px;
+}
+
+
+/* job titles */
+.jobtitle {
+font-size: 1.5em;
+font-weight: 600;
+color: #000000
+padding: 20px;
+}
+
+
+/* job organization */
+.joborganization {
+font-size: 1.25em;
+font-weight: 400;
+color: #000000
+padding:20px;
+}
+
+/* job dates */
+.jobdates {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  color: #000000
+  margin-top: 2px;
+  margin: 0px;
+  padding: 20px;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0px;
+  color: #000000
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+/* contact info, skills, education */
+.menu {
+  font-size: 1em;
+  padding: 0px;
+  margain: 0px;
+  text-align: center;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  text-align: center;
+}
+
+.degrees{
+  margin-top: 5px;
+  margin: 0px;
+}
+
+
+.do {
+margin-top: 5px;
+margain: 0px;
+}
+
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}

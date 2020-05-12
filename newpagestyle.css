@@ -1,0 +1,208 @@
+body {
+font-family: 'Open Sans', arial, sans-serif;
+font-size: 1.25em;
+color:#444;
+margin-top: 2px;
+margin-bottom: 10px;
+background-color: #FFFAF0;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+ p {
+   font-size: 14px;
+   color: #ccc;
+ }
+
+ div {
+   width: 30%;
+ }
+
+}
+
+@media only screen and (max-width: 450px) {
+ p {
+   font-size: 12px;
+ }
+
+}
+
+
+/* media queries */
+@media(max-width: 600px){
+  p {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .chapter-head {
+    font-size: 1.25em;
+  }
+
+.hed {
+  font-size: 2em;
+}
+
+.hero-hed {
+  font-size: 2em;
+}
+
+}
+
+
+img {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+  padding-left: 50px;
+}
+
+.container {
+width:100%;
+max-width: 800px;
+margin: 0 auto;
+border-bottom:50px;
+text-align: left;
+font-style: 'Merriweather', serif;
+}
+
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* title */
+#title {
+text-transform: uppercase;
+font-size: 1.5em;
+font-weight: 600;
+margin-top: 20px;
+margin: 0px;
+color: #000000;
+text-align: left;
+font-style: 'Oswald', sans-serif;
+}
+
+
+/* section titles */
+.sectionheader {
+font-size: 2em;
+background-color: #D3D3D3;
+color: #000000;
+margin-bottom: 10px;
+margin-top: 20px;
+margin: 0px;
+width: 100%;
+min-width: 300px;
+text-align: left;
+font-style: 'Oswald', sans-serif;
+}
+
+
+/* job titles */
+.jobtitle {
+font-size: 1.5em;
+font-weight: 600;
+color: #000000;
+padding: 20px;
+text-decoration:underline;
+font-style: 'Oswald', sans-serif;
+}
+
+
+/* job organization */
+.joborganization {
+font-size: 1.25em;
+font-weight: 400;
+color: #000000;
+padding:5px;
+font-style: 'Merriweather', serif;
+}
+
+/* job dates */
+.jobdates {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  color: #000000;
+  margin-top: 2px;
+  margin: 0px;
+  padding: 5px;
+  font-style: 'Merriweather', serif;
+}
+
+.description{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: 0px;
+  color: #000000;
+  padding: 20px;
+  font-size: 1.25em;
+  font-style: 'Merriweather', serif;
+}
+
+/* contact info, skills, education */
+.menu {
+  font-size: 1.25em;
+  padding: 0px;
+  margin: 0 auto;
+  list-style: none;
+  color: #000000;
+  font-style: 'Merriweather', serif;
+
+
+.degrees{
+  margin-top: 5px;
+  margin: 0px;
+}
+
+
+.do {
+margin-top: 5px;
+margain: 0px;
+}
+
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+.c1{
+  display: inline-block;
+  padding: 50px;
+  margin: 200px;
+  width: 70%;
+  text-align: center;
+  float: center;
+  background-position: center;
+  list-style-type: none;
+}
+
+.c2{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 120px 0;
+  float: center;
+  margin: 0px;
+}
+
+.c3{
+  display: inline-block;
+  float: center;
+  width: 100%;
+  text-align: center;
+  padding: 120px 0;
+  float: inherit;
+}
+
+
+
